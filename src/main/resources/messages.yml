@@ -1,0 +1,5 @@
+command-description: Open forms from config
+no-permission: You do not have permission to use this command!
+usage: Usage /sformopen <form name> <player>
+no-found-player: Player %player not found! Check your spelling.
+no-found-form: Form %form not found. Add form to forms.yml

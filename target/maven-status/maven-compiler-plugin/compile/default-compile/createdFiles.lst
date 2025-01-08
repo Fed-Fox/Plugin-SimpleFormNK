@@ -1,0 +1,4 @@
+ru\fedfox\SimpleForms\Util\FormConstructor.class
+ru\fedfox\SimpleForms\Commands\sformopen.class
+ru\fedfox\SimpleForms\Main.class
+ru\fedfox\SimpleForms\Events\FormRespondEvent.class
