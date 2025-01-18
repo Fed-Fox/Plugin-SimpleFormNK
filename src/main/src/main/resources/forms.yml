@@ -1,0 +1,11 @@
+test:   #FORM ID
+  type: 'Simple'  #Simple (FormWindowSimple)
+  name: 'Test Form' #Form Name
+  content: 'Test Form \nClick to Buttons!' #Form Content
+  buttons:
+    - name: 'Button 1',
+        cmd: '@log gamemode c %p' #@log - Execute command on behalf of console | %p (Player Name)
+    - name: 'Button 2',
+        cmd: 'tp %p %p' #Execute command on behalf of player / %p - Player Name
+    - name: 'Button 3',
+        message: '%p, this is a form button!' #Send Message To Player / %p - Player Name
